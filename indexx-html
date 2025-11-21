@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Gatos | Card de Notificação</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main class="page-container">
+        
+        <section class="notification-card">
+            
+            <header class="card-header">
+                <div class="status-indicator"></div> 
+                <h2 class="card-title">Nova Missão de Gatos Atribuída</h2>
+            </header>
+            
+            <div class="card-body">
+                <p class="message-text">
+                    O Chef Gato precisa de reforços. Sua nova missão está disponível. Clique em "Ver Missão" para acessar os detalhes e receber seus petiscos.
+                </p>
+            </div>
+            
+            <footer class="card-footer">
+                <button class="btn secondary-btn">Mais Tarde</button>
+                <button class="btn primary-btn">Ver Missão</button>
+            </footer>
+
+        </section>
+    </main>
+
+</body>
+</html>
