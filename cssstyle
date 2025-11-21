@@ -1,0 +1,24 @@
+/* ============================================================= */
+/* Variáveis e Reset Básico                    */
+/* ============================================================= */
+
+/* Definindo cores e espaçamentos como variáveis CSS para fácil manutenção */
+:root {
+    /* Cores */
+    --clr-primary-400: #FF9900; /* Laranja Vívido (Para botões primários/ênfase) */
+    --clr-secondary-500: #4A4A6A; /* Azul Escuro/Roxo (Para texto principal/fundo) */
+    --clr-neutral-100: #FFFFFF; /* Branco (Para fundo do card) */
+    --clr-neutral-200: #F0F0F5; /* Cinza Claro (Para fundo da página) */
+    --clr-neutral-300: #D0D0DB; /* Cinza Médio (Para bordas/separadores) */
+    --clr-status-success: #00CC66; /* Verde (Para indicador de status "novo") */
+    --clr-btn-hover: #E68A00; /* Laranja Escuro (Para hover do botão primário) */
+
+    /* Fontes */
+    --ff-inter: 'Inter', sans-serif;
+
+    /* Spacing */
+    --sp-xs: 8px;
+    --sp-sm: 12px;
+    --sp-md: 16px;
+    --sp-lg: 24px;
+    --sp-xl
